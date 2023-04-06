@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+    background-color: antiquewhite;
+  }
+
+h2 {
+margin-bottom: 1.8rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 2em;
+    padding: 3em;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+#query {
+    width: 19em;
+    border: none;
+    border-radius: 10px;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.res {
+    margin: 1rem;
+    font-size: medium;
+    height: 2.5rem;
+}
+
+p {
+   font-size: small;
+}
+
+.grid {
+    text-align: center;
+    float: right;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+
+.pad {
+    margin-bottom: 1rem;
+}
+
+.button {
+    border: none;
+    color: black;
+    padding: 20px 10px;
+    width: 3.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.button1 {
+    background-color:white;
+  }
+  
+.button1:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+  }
+
+.button2:hover {
+    background-color: #e7e7e7;
+}
+
+.button3 {
+    padding: 5px 10px;
+    width: fit-content;
+    color: green;
+    background-color: whitesmoke;
+    font-size: 15px;
+    border-radius: 5px;
+}
+  
+.button3:hover {
+    color: white;
+    background-color: green;
+}
+
+.button4 {
+    padding: 5px 10px;
+    width: fit-content;
+    background-color: whitesmoke;
+    font-size: 15px;
+    border-radius: 5px;
+}
+  
+.button4:hover {
+    color: white;
+    background-color: lightslategray;
+}
+
+
+#export-button {
+    margin-top: 0.5em;
+}
+
+#delete {
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    top: 94%;
+    left: 47%;
+}
